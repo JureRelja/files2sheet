@@ -13,7 +13,7 @@ export default function Home() {
           <Navbar />
           <div className="flex flex-col gap-10 justify-center items-center">
             <h1 className="text-[40px] text-white font-bold text-center">
-              Add Multiple CSV Files To Google Sheets in Seconds
+              Import Multiple CSV Files To Google Sheets in Seconds
             </h1>
 
             <div className="flex flex-col justify-center items-center gap-1">
