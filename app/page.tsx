@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-center">
             <Suspense fallback={<p>Loading video...</p>}>
-              <VideoComponent id="4pcnHBuVgOs" />
+              <VideoComponent id="IHKohKCN3nc" />
             </Suspense>
           </div>
         </div>
