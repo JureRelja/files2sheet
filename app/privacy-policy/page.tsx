@@ -33,18 +33,14 @@ export default function PrivacyPolicy() {
         <p>
           files2sheet.com follows a standard procedure of using log files. These
           files log visitors when they visit websites. All hosting companies do
-          this and a part of hosting services' analytics. The information
+          this and a part of hosting services analytics. The information
           collected by log files include internet protocol (IP) addresses,
           browser type, Internet Service Provider (ISP), date and time stamp,
           referring/exit pages, and possibly the number of clicks. These are not
           linked to any information that is personally identifiable. The purpose
           of the information is for analyzing trends, administering the site,
-          tracking users' movement on the website, and gathering demographic
-          information. Our Privacy Policy was created with the help of the{" "}
-          <a href="https://www.privacypolicyonline.com/privacy-policy-generator/">
-            Privacy Policy Generator
-          </a>
-          .
+          tracking users movement on the website, and gathering demographic
+          information.
         </p>
 
         <h2>
@@ -60,7 +56,7 @@ export default function PrivacyPolicy() {
           Third-party ad servers or ad networks uses technologies like cookies,
           JavaScript, or Web Beacons that are used in their respective
           advertisements and links that appear on files2sheet.com, which are
-          sent directly to users' browser. They automatically receive your IP
+          sent directly to users browser. They automatically receive your IP
           address when this occurs. These technologies are used to measure the
           effectiveness of their advertising campaigns and/or to personalize the
           advertising content that you see on websites that you visit.
