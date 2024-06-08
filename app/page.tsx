@@ -3,7 +3,6 @@ import Navbar from "./navbar";
 import Button from "./button";
 import { Suspense } from "react";
 import VideoComponent from "./VideoComponent";
-import Card from "./card";
 
 export default function Home() {
   return (
@@ -175,10 +174,10 @@ export default function Home() {
           <div className="w-44 flex flex-col">
             <p className="mb-5">COMPANY</p>
             <p>
-              <a href="#">Privacy policy</a>
+              <a href="privacy-policy">Privacy policy</a>
             </p>
             <p>
-              <a href="#">Terms of service</a>
+              <a href="terms-of-service">Terms of service</a>
             </p>
           </div>
 
