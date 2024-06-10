@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
           files2sheet.com uses Google's OAuth2 for authentication. When you
           authenticate with Google, we only request the following permissions:
         </p>
-        <ul>
+        <ul className="list-disc list-inside">
           <li>
             "https://www.googleapis.com/auth/drive.file" - This permission is
             used to upload files to user's Google Drive and to also access those
