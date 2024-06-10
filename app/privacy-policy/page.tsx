@@ -21,6 +21,50 @@ export default function PrivacyPolicy() {
           recorded by files2sheet.com and how we use it.
         </p>
 
+        <h2>
+          <strong>How is Google's users data handeled</strong>
+        </h2>
+
+        <p>
+          files2sheet.com uses Google's OAuth2 for authentication. When you
+          authenticate with Google, we only request the following permissions:
+          <br />
+          "https://www.googleapis.com/auth/drive.file" - This permission is used
+          to upload files to user's Google Drive and to also access those same
+          files from with user's desired Google Sheet file. <br />,
+          "https://www.googleapis.com/auth/spreadsheets - This permission is
+          used to add data to user's desired Google Sheet file. <br />
+          ,", "https://www.googleapis.com/auth/script.container.ui - This
+          permission is used to display pop ups and third-party content inside
+          the Files2Sheet app. <br />
+          ", "https://www.googleapis.com/auth/script.external_request - This
+          permission is used to make external requests to third-party service
+          called Gumroad to handle subscription payments. <br />
+          ",
+        </p>
+        <p>
+          files2sheet.com uses Google's user data to upload files to user's
+          Google Drive and to also access those same files from with user's
+          desired Google Sheet file. files2sheet.com also uses Google's user
+          data to add data to user's desired Google Sheet file. files2sheet.com
+          also uses Google's user data to display pop ups and third-party
+          content inside the Files2Sheet app. files2sheet.com also uses Google's
+          user data to make external requests to third-party service called
+          Gumroad to handle subscription payments.
+        </p>
+        <p>
+          All of the user's data is handeled securly using SSL data encryption
+          and is never available to other people.
+        </p>
+
+        <h2>
+          <strong>How long is Google's users data stored</strong>
+        </h2>
+        <p>
+          files2sheet.com doesn't store any private user data. All of the user's
+          data is stored in Google's servers and is only available to the user.
+        </p>
+
         <p>
           If you have additional questions or require more information about our
           Privacy Policy, do not hesitate to contact us.
