@@ -2,7 +2,7 @@ import Navbar from "../navbar";
 
 export default function PrivacyPolicy() {
   return (
-    <main className="flex flex-col gap-12">
+    <main className="flex flex-col gap-12 mb-10">
       {/* hero section */}
       <section className="h-[150px] bg-background w-full">
         <div className="flex flex-col gap-12 w-[1000px] m-auto my-5 ">
@@ -36,11 +36,11 @@ export default function PrivacyPolicy() {
             same files from with user's desired Google Sheet file.
           </li>
           <li>
-            "https://www.googleapis.com/auth/spreadsheets - This permission is
+            "https://www.googleapis.com/auth/spreadsheets" - This permission is
             used to add data to user's desired Google Sheet file.
           </li>
           <li>
-            "https://www.googleapis.com/auth/script.container.ui - This
+            "https://www.googleapis.com/auth/script.container.ui" - This
             permission is used to display pop ups and third-party content inside
             the Files2Sheet app.
           </li>
