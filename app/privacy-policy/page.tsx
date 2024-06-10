@@ -28,20 +28,28 @@ export default function PrivacyPolicy() {
         <p>
           files2sheet.com uses Google's OAuth2 for authentication. When you
           authenticate with Google, we only request the following permissions:
-          <br />
-          "https://www.googleapis.com/auth/drive.file" - This permission is used
-          to upload files to user's Google Drive and to also access those same
-          files from with user's desired Google Sheet file. <br />,
-          "https://www.googleapis.com/auth/spreadsheets - This permission is
-          used to add data to user's desired Google Sheet file. <br />
-          ,", "https://www.googleapis.com/auth/script.container.ui - This
-          permission is used to display pop ups and third-party content inside
-          the Files2Sheet app. <br />
-          ", "https://www.googleapis.com/auth/script.external_request - This
-          permission is used to make external requests to third-party service
-          called Gumroad to handle subscription payments. <br />
-          ",
         </p>
+        <ul>
+          <li>
+            "https://www.googleapis.com/auth/drive.file" - This permission is
+            used to upload files to user's Google Drive and to also access those
+            same files from with user's desired Google Sheet file.
+          </li>
+          <li>
+            "https://www.googleapis.com/auth/spreadsheets - This permission is
+            used to add data to user's desired Google Sheet file.
+          </li>
+          <li>
+            "https://www.googleapis.com/auth/script.container.ui - This
+            permission is used to display pop ups and third-party content inside
+            the Files2Sheet app.
+          </li>
+          <li>
+            "https://www.googleapis.com/auth/script.external_request" - This
+            permission is used to make external requests to third-party service
+            called Gumroad to handle subscription payments.
+          </li>
+        </ul>
         <p>
           files2sheet.com uses Google's user data to upload files to user's
           Google Drive and to also access those same files from with user's
