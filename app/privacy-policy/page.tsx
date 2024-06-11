@@ -22,7 +22,9 @@ export default function PrivacyPolicy() {
         </p>
 
         <h2>
-          <strong>How is Google's users data handeled</strong>
+          <strong>
+            How is Google's users data accesed, used, stored or shared
+          </strong>
         </h2>
 
         <p>
@@ -71,6 +73,15 @@ export default function PrivacyPolicy() {
         <p>
           files2sheet.com doesn't store any private user data. All of the user's
           data is stored in Google's servers and is only available to the user.
+        </p>
+
+        <h2>
+          <strong>Limited Use Disclosure</strong>
+        </h2>
+        <p>
+          Files2Sheet use and transfer to any other app of information received
+          from Google APIs will adhere to Google API Services User Data Policy,
+          including the Limited Use requirements.
         </p>
 
         <p>
