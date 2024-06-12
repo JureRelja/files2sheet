@@ -22,6 +22,29 @@ export default function PrivacyPolicy() {
         </p>
 
         <h2>
+          <strong>Which Google user's data does Files2Sheet use</strong>
+        </h2>
+        <p>
+          Files2Sheet uses only the absolute necesarry data for the app to
+          function properly. That includes:
+        </p>
+        <ul className="list-disc list-inside">
+          <li>Data from the user's selected Google Sheet file</li>
+          <li>
+            Data from CSV files that are situated on the user's Google Drive
+            account
+          </li>
+          <li>
+            Users Google credentials to get the ability to access their Google
+            Drive and Google Sheet files
+          </li>
+          <li>
+            Data regarding the in-app payments from the user via the third-party
+            service Gumroad
+          </li>
+        </ul>
+
+        <h2>
           <strong>
             How is Google's users data accesed, used, stored or shared
           </strong>
