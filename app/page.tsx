@@ -3,13 +3,14 @@ import Navbar from "./navbar";
 import Button from "./button";
 import { Suspense } from "react";
 import VideoComponent from "./VideoComponent";
+import FAQSection from "./faqSection";
 
 export default function Home() {
   return (
     <main className="flex flex-col gap-12">
       {/* hero section */}
       <section className="bg-background h-[100vh] w-full">
-        <div className="flex flex-col gap-12 w-[1000px] m-auto my-5">
+        <div className="flex flex-col gap-12 w-[1000px] m-auto my-5 ">
           <Navbar />
           <div className="flex flex-col gap-10 justify-center items-center">
             <h1 className="text-[40px] text-white font-bold text-center">
@@ -134,8 +135,8 @@ export default function Home() {
       </section>
 
       {/* pricing */}
-      <section className="bg-white" id="pricing">
-        <div className="w-[900px] m-auto flex flex-col justify-center items-center  ">
+      <section className="bg-gray" id="pricing">
+        <div className="w-[900px] m-auto flex flex-col py-10 justify-center items-center  ">
           <h2 className="font-bold text-center text-[35px]">Pricing</h2>
           <span>Both yearly and monthly plans include a 7-day FREE trial.</span>
           <div className="flex flex-col gap-5 justify-center items-center my-5 py-5 px-10 shadow-md border-gray border-2 rounded-2xl">
@@ -152,6 +153,9 @@ export default function Home() {
             <Button empty={false} />
           </div>
         </div>
+      </section>
+      <section className="bg-grey" id="faq">
+        <FAQSection />
       </section>
 
       {/* footer */}

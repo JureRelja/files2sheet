@@ -4,11 +4,12 @@ export default function TermsOfService() {
   return (
     <main className="flex flex-col gap-12 justify-center">
       {/* hero section */}
-      <section className="h-[150px] bg-background w-full">
+      <section className="h-[150px] bg-background w-full ">
         <div className="flex flex-col gap-12 w-[1000px] mx-auto my-5 ">
           <Navbar />
         </div>
       </section>
+
       <div className="flex flex-col gap-2 w-[1000px] mx-auto">
         <h2>
           <strong>Terms and Conditions</strong>

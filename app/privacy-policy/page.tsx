@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
           <Navbar />
         </div>
       </section>
-      <div className="flex flex-col gap-2 w-[1000px] mx-auto">
+      <div className="flex flex-col gap-3 w-[1000px] mx-auto">
         <h1>
           <strong>Privacy Policy for files2sheet.com</strong>
         </h1>
@@ -101,10 +101,22 @@ export default function PrivacyPolicy() {
         <h2>
           <strong>Limited Use Disclosure</strong>
         </h2>
+
         <p>
-          Files2Sheet use and transfer to any other app of information received
-          from Google APIs will adhere to Google API Services User Data Policy,
-          including the Limited Use requirements.
+          Files2Sheet doesn't use the user's data for any other purpose than to
+          provide the service of importing CSV files to Google Sheets. The data
+          is never shared with other people or companies.
+        </p>
+        <p>
+          Files2Sheet's use and transfer to any other app of information
+          received from Google APIs will adhere to{" "}
+          <a
+            className="underline"
+            href="https://support.google.com/googleplay/android-developer/answer/10144311?visit_id=638538846495956608-465503132&rd=1"
+          >
+            Google API Services User Data Policy
+          </a>
+          , including the Limited Use requirements.
         </p>
 
         <p>

@@ -28,10 +28,10 @@ export default function Navbar() {
           PRICING
         </a>
         <a
-          href="#about"
+          href="#faq"
           className="text-white font-medium hover:text-accent transition-all-ease-in-out duration-100"
         >
-          ABOUT
+          FAQ
         </a>
         <Button empty />
       </div>
